@@ -1,0 +1,9 @@
+[package]
+name = "poolc-k8s-test"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.98"
+tokio = { version = "1", features = ["full"] }
+axum = "0.8.4"
